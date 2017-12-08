@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>ArticleBounceWithNumber</Name>
+    <Version>1.0.1</Version>
+    <Framework>6.0.x</Framework>
+    <Vendor>Oleg Russkin</Vendor>
+    <URL>https://github.com/olegrolep/otrs-ArticleBounceWithNumber</URL>
+    <Description Lang="en">Module to bounce last ticket article to owner or responsible.</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/XML/ArticleBounceWithNumber.xml" />
+        <File Permission="644" Location="Kernel/Autoload/ABWN-ArticleMailFuncs.pm" />
+        <File Permission="644" Location="Kernel/Autoload/ABWN-EmailFuncs.pm" />
+        <File Permission="644" Location="Custom/ArticleBounceWithNumber/ToOwner.pm" />
+        <File Permission="644" Location="Custom/ArticleBounceWithNumber/ToResponsible.pm" />
+        <File Permission="644" Location="doc/ArticleBounceWithNumber.json" />
+        <File Permission="644" Location="doc/en/ArticleBounceWithNumber.pod" />
+    </Filelist>
+</otrs_package>

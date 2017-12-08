@@ -1,0 +1,15 @@
+{
+  "name": "ArticleBounceWithNumber",
+  "version": "1.0.1",
+  "framework": [
+    "6.0.x"
+  ],
+  "vendor": {
+    "name": "Oleg Russkin",
+    "url": "https://github.com/olegrolep/otrs-ArticleBounceWithNumber"
+  },
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+  "description": {
+    "en": "Module to bounce last ticket article to owner or responsible."
+  }
+}

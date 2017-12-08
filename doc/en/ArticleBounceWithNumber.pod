@@ -1,0 +1,31 @@
+=head1 NAME
+
+ArticleBounceWithNumber - Module to bounce last ticket article to owner or responsible.
+
+=head1 DESCRIPTION
+
+This add-on adds functions, which can be used in GenericAgent.
+It allows to bounce latest article in the selected ticket to
+owner or responsible agent's email.
+
+Usage: In GenericAgent job -> Execute Custom Module, set one of
+- ArticleBounceWithNumber::ToOwner
+- ArticleBounceWithNumber::ToResponsible
+In passed Params/Keys set TicketID / TicketID (mb can work without it, as ticketid
+is supposed to be passed automatically)
+
+Usecase: some managers can't move to otrs, they require email client to communicate with clients, etc.
+If there is a new ticket in otrs for them - agent can set one as owner / responsible
+(they have users created for them)
+Only bounce preserve all fields in original email, but it will not contain ticket number.
+With this add-on latest article is bounced to their email, with ticket number in subject,
+allowing agents to track responses if needed (otrs email can remain in cc).
+
+
+=head1 AUTHOR AND LICENSE
+
+This package is a remaster by Oleg Russkin E<lt>olegrolep@gmail.comE<gt>.
+
+The package is licensed unter AGPL. If you
+did not receive this file, see L<http://www.gnu.org/licenses/agpl.txt>.
+

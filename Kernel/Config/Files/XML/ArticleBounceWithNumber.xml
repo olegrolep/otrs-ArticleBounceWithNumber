@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="2.0" init="Framework">
+    <Setting Name="AutoloadPerlPackages###2000-ArticleBounceWithNumber" Required="0" Valid="0">
+        <Description Translatable="1">Module to bounce last ticket article to owner or responsible.</Description>
+        <Navigation>Core::Autoload</Navigation>
+        <Value>
+            <Array>
+                <Item ValueType="String">Kernel::Autoload::ABWN-ArticleMailFuncs</Item>
+                <Item ValueType="String">Kernel::Autoload::ABWN-EmailFuncs</Item>
+            </Array>
+        </Value>
+    </Setting>
+</otrs_config>
